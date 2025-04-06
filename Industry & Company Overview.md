@@ -2,7 +2,7 @@
 
 ## Ride-Hailing Platforms
 
-Ride-hailing platforms such as Uber and Lyft have achieved explosive growth and reshaped urban transportation. For example, Uber has completed over 10 billion trips globally and is active in over 80 countries and 700 cities since its initial launch in 2009. By some estimates, the global ride-hailing industry is projected to grow to a 285-billion dollar total market value by 2030.
+Ride-hailing platforms such as Uber and Lyft have achieved explosive growth and reshaped urban transportation. For example, Uber has completed **over 10 billion trips globally** and is active in **over 80 countries and 700 cities** since its initial launch in 2009. By some estimates, the global ride-hailing industry is projected to grow to a **285 billion dollar total market value by 2030**.
 
 Ride-hailing platforms connect riders and drivers via a centralized and automated matching and pricing system in a two-sided marketplace. Ride-hailing platforms have three components:
 - Driver app (for drivers to offer services and communicate with their customers).
@@ -34,6 +34,8 @@ A successful implementation of matching and pricing can be leveraged to create a
 
 **3. Payment Systems:** Cashless transactions are processed within the app using stored credit card information or digital wallets.
 
+-----
+
 ### Uber's Profit Centers
 The company's revenue streams are diversified across various services and geographies. These include:
 
@@ -62,6 +64,8 @@ This is a platform that connects shippers with carriers for freight transportati
 - Micro-Mobility Solutions: Rentals of electric bikes and scooters.
 - Uber Health: Non-emergency medical transportation services.
 - Advertising: In-app advertising and marketing partnerships.
+
+-----
 
 ### Uber's Cost Centers
 Cost centers are parts of the business that incur expenses without directly generating profits but are essential for operations and growth.
