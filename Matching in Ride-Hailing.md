@@ -7,7 +7,11 @@ In the simpler case of a non-shared ride, drivers participating on the platform 
 - **"en route"** (on the way to the pickup location), and
 - **"on-trip"** (driving riders to their destination).
 
-A request can be matched with a dispatchable driver using very simple algorithms, such as the first-dispatch protocol. In the first-dispatch protocol, only open drivers are considered as dispatchable. Each request is immediately assigned to the open driver who is predicted to have the shortest en route time. This matching algorithm is also called the on-call policy, the closest driver policy, and the committed driver-rider matching protocol.
+A request can be matched with a dispatchable driver using very simple algorithms, such as the first-dispatch protocol. 
+
+In the first-dispatch protocol, only open drivers are considered as dispatchable. Each request is immediately assigned to the open driver who is predicted to have the shortest en route time. 
+
+This matching algorithm is also called the on-call policy, the closest driver policy, and the committed driver-rider matching protocol.
 
 ## Shared ride (Batching-based optimization)
 An alternative matching approach is batching where rider requests are collected for a short time window (typically on the order of seconds), at the end of which an optimization problem is solved to pair each request with an open driver.
