@@ -1,7 +1,6 @@
 # 🚘 Clustering and Trend Analysis for Ride-Sharing Demand and Behavior
 
 ## 🧩 Objective
-
 _**How to solve the matching problem between riders and drivers?**_
 
 This is a common problem faced by any company that facilitates transactions between counterparties. Specifically, a problem Uber faces is that sometimes drivers are not around when users need them. 
