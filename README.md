@@ -1,17 +1,20 @@
 # 🚘 Clustering and Trend Analysis for Ride-Sharing Demand and Behavior
 
-## 🧩 Objective
-_**How to solve the matching problem between riders and drivers?**_
+## ⚠️ Business Problem
 
-This is a common problem faced by any company that facilitates transactions between counterparties. Specifically, a problem Uber faces is that sometimes drivers are not around when users need them. 
+Any company that facilitates transactions between counterparties commonly faces a matching problem—aligning supply with demand across two or more sides. For example, Uber often encounters situations where riders request trips but no nearby drivers are available, highlighting a gap in real-time supply-demand matching.
 
 Even if riders and drivers are not that far away, if users have to **wait 10 to 15 minutes before being picked up**, then they will likely cancel their ride's pickup request. Uber's research shows that users have **a willingness-to-wait time of 5-7 minutes**.
 
-Therefore, it is of first-order importance for Uber to have a methodology that is capable of **recommending hot-spot zones** for drivers to be in major cities in order to help facilitate the successful matching of riders and drivers. Note that these hot-spots can vary by day and intraday hours.
+To improve rider experience and operational efficiency, it is critical for Uber to develop a system that can dynamically recommend hot-spot zones for drivers in major cities. These zones must account for fluctuations across days of the week and intraday hours to optimize rider-driver matching.
+
+## 🧩 Objective Question
+
+_**How can Uber identify and recommend dynamic hot-spot zones for drivers—based on temporal and spatial patterns—to reduce wait times and prevent cancellations?**_
 
 ## 🧮 Proposed Solution
-Use **clustering algorithms** to group pickups together, then define those groups (clusters) as hotspots where drivers should be encouraged to hang around.
-- Analyze the pickup data
-- Create clusters
-- Assign pickups to clusters
-> Rider-pickup clusters help create a matching rule that assigns a rider's pickup request to a group and then broadcast the pickup request to all drivers in the region defined by the cluster.
+Use **clustering algorithms** to group pickup locations and define these clusters as hotspot zones where drivers should be encouraged to hang around.
+- Analyze historical pickup data
+- Apply clustering to identify high-demand zones
+- Assign each new rider request to the nearest cluster
+> Rider-pickup clusters serve as the basis for a matching rule: when a rider makes a request, the system assigns it to a cluster and broadcasts the request to all available drivers within that zone, increasing the likelihood of a fast, successful match.
