@@ -12,6 +12,8 @@ To improve rider experience and operational efficiency, it is critical for Uber 
 
 _**How can Uber identify and recommend dynamic hot-spot zones for drivers—based on temporal and spatial patterns—to reduce wait times and prevent cancellations?**_
 
+The dataset contains over 4.5 million Uber pickups in New York City from April to September 2014. [Link](https://drive.google.com/file/d/1F57P2xw9eCXcRggkbi00r7GnYDFh1iHZ/view?usp=sharing)
+
 ## 🧮 Proposed Solution
 Use **clustering algorithms** to group pickup locations and define these clusters as hotspot zones where drivers should be encouraged to hang around.
 - Analyze historical pickup data
