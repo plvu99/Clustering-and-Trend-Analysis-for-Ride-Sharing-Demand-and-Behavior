@@ -15,8 +15,13 @@ _**How can Uber identify and recommend dynamic hot-spot zones for drivers—base
 The dataset contains over 4.5 million Uber pickups in New York City from April to September 2014. [Link](https://drive.google.com/file/d/1F57P2xw9eCXcRggkbi00r7GnYDFh1iHZ/view?usp=sharing)
 
 ## 🧮 Proposed Solution
+
 Use **clustering algorithms** to group pickup locations and define these clusters as hotspot zones where drivers should be encouraged to hang around.
+
 - Analyze historical pickup data
+
 - Apply clustering to identify high-demand zones
+
 - Assign each new rider request to the nearest cluster
+
 > Rider-pickup clusters serve as the basis for a matching rule: when a rider makes a request, the system assigns it to a cluster and broadcasts the request to all available drivers within that zone, increasing the likelihood of a fast, successful match.
